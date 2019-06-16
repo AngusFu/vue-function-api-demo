@@ -1,10 +1,15 @@
 <template>
   <div>
+    <div :style="style.value">
+      S
+      <sub>rect</sub>
+      = {{ area.value }}
+    </div>
+
     <label>
       <input type="checkbox" :checked="disabled.value" @change="toggle">
       {{ disabled.value ? '禁用' : '启用' }} Mouse APP
     </label>
-    <div :style="style.value">Area of square is:{{ area.value }}</div>
   </div>
 </template>
 

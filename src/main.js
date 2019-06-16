@@ -1,9 +1,6 @@
-import Vue from 'vue-fapi'
-import MouseApp from './MouseApp'
-import CounterApp from './CounterApp'
+import Vue from "vue-fapi";
+import App from "./App";
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
-new Vue({ render: h => h('div', null, [h(CounterApp), h(MouseApp)]) }).$mount(
-  '#app'
-)
+new Vue({ render: h => h(App) }).$mount("#app");
