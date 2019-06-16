@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import { computed } from "vue-fapi";
+import { computed } from "vue-functional-api";
 import useMouse from "./useMouse";
 
 export default {

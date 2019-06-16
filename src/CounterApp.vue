@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import { value, computed, watch, onMounted } from "vue-fapi";
+import { value, computed, watch, onMounted } from "vue-functional-api";
 
 export default {
   setup() {

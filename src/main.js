@@ -1,4 +1,4 @@
-import Vue from "vue-fapi";
+import Vue from "vue-functional-api";
 import App from "./App";
 
 Vue.config.productionTip = false;

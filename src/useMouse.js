@@ -1,4 +1,4 @@
-import { value, onMounted, onUnmounted } from "vue-fapi";
+import { value, onMounted, onUnmounted } from "vue-functional-api";
 
 export default function useMouse() {
   const x = value(200);
