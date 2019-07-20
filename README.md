@@ -1,3 +1,3 @@
-# vue-functional-api-demo
+# vue-function-api-demo
 
-SEE [vue-functional-api](https://github.com/AngusFu/vue-functional-api)
+SEE [vue-function-api](https://github.com/AngusFu/vue-function-api)
